@@ -7,7 +7,8 @@ Se necesita de los módulos Pygame y Numpy, en caso de no tenerlos instalados ha
 - Pygame: https://www.pygame.org/news
 - Numpy: https://numpy.org/
 
-Una vez estén ya instalados bastaría con ir a un terminal, entrar en la carpeta del proyecto y escribir la orden para lanzarlo: **python3 game_of_life.py**
+Una vez estén ya instalados bastaría con ir a un terminal, entrar en la carpeta del proyecto y escribir la orden para lanzarlo:
+    **python3 game_of_life.py**
 
 Las instrucciones del juego se encuentran en español al comenzar, pero se pueden cambiar pulsando los botones de la parte inferior derecha de la pantalla emergente.
 
