@@ -37,9 +37,14 @@ class Game:
                     self.pause = not self.pause
                 
                 # PATRONES
+                # MATUSALENES
                 if event.key == pygame.K_a:
                     # patron acorn
                     self.draw_acorn()
+                if event.key == pygame.K_e:
+                    # patron diehard
+                    self.draw_diehard()
+                # OSCILADORES
                 if event.key == pygame.K_o:
                     # oscilador 9x9
                     self.draw_oscilator9x9()
@@ -58,6 +63,7 @@ class Game:
                 if event.key == pygame.K_w:
                     # oscilador 4x4
                     self.draw_oscilator4x4()
+                # AUTOMATAS
                 if event.key == pygame.K_x:
                     # automata movil 3x3
                     self.draw_movil3x3()
@@ -67,6 +73,7 @@ class Game:
                 if event.key == pygame.K_p:
                     # automata palo 1x3
                     self.draw_stick()
+                # PISTOLAS
                 if event.key == pygame.K_v:
                     # pistola vertical 36x9
                     self.draw_gun36x9()
@@ -190,6 +197,14 @@ class Game:
         y = random.randint(0, self.nyC - 8)
 
         self.gameState[x:x+7,y:y+3] = settings.acorn
+
+    # Patron Diehard
+    def draw_diehard(self):
+    
+        x = random.randint(0, self.nxC - 4)
+        y = random.randint(0, self.nyC - 9)
+
+        self.gameState[x:x+8,y:y+3] = settings.diehard
 
     # Automata palo 1x3
     def draw_stick(self):
