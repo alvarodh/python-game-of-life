@@ -13,6 +13,7 @@ instructions = {'english': ['',
                             '-------------------------------------------',
                             'PRESS LETTERS FOR DRAW PATRONS:',
                             '    - A: DRAW ACORN PATRON',
+                            '    - E: DRAW DIEHARD PATRON',
                             '    - U: DRAW A 13x13 OSCILATOR',
                             '    - K: DRAW A 12x12 OSCILATOR',
                             '    - Q: DRAW A 10X3 OSCILATOR',
@@ -48,6 +49,7 @@ instructions = {'english': ['',
                             '-------------------------------------------',
                             'PULSA LETRAS PARA DIBUJAR PATRONES:',
                             '    - A: DIBUJAR UN PATRON ACORN',
+                            '    - E: DIBUJAR UN PATRON DIEHARD',
                             '    - U: DIBUJAR UN OSCILADOR DE 13x13',
                             '    - K: DIBUJAR UN OSCILADOR DE 12x12',
                             '    - Q: DIBUJAR UN OSCILADOR DE 10X3',
@@ -195,6 +197,15 @@ movil3x3 = [[0,1,0],
             [1,1,1]]
 
 stick = [1,1,1]
+
+diehard = [[0,1,0],
+           [0,1,1],
+           [0,0,0],
+           [0,0,0],
+           [0,0,0],
+           [0,0,1],
+           [1,0,1],
+           [0,0,1]]
 
 acorn = [[0,0,1],
          [1,0,1],
