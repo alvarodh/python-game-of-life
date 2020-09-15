@@ -4,8 +4,8 @@ Utiliza la versión 3.6.6 de Python.
 
 Se necesita de los módulos Pygame y Numpy, en caso de no tenerlos instalados habría que acceder a las páginas oficiales para realizar su descarga:
 
-- **Pygame**: https://www.pygame.org/news
-- **Numpy**: https://numpy.org/
+- **Pygame**: https://www.pygame.org/
+- **Numpy**: https://www.numpy.org/
 
 Una vez estén ya instalados bastaría con ir a un terminal, entrar en la carpeta del proyecto y escribir la orden para lanzarlo: **python3 game_of_life.py**
 
